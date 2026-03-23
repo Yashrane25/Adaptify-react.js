@@ -1,0 +1,88 @@
+/* Section */
+.cta-section {
+  padding: 96px 0;
+}
+
+.cta-container {
+  max-width: 800px;
+}
+
+/* Card */
+.cta-card {
+  background: linear-gradient(135deg, #1d4ed8 0%, #0284c7 100%);
+  border-radius: 20px;
+  padding: 64px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Responsive padding */
+@media (max-width: 768px) {
+  .cta-card {
+    padding: 40px;
+  }
+}
+
+/* Decorative circles */
+.cta-circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cta-circle-top {
+  top: -60px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.cta-circle-bottom {
+  bottom: -40px;
+  left: -40px;
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Title */
+.cta-title {
+  font-size: 2.4rem;
+  color: #ffffff;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Subtitle */
+.cta-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+/* Button */
+.cta-button {
+  background: #ffffff;
+  color: #1d4ed8;
+  font-weight: 700;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.cta-button:hover {
+  background: #f1f5f9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}

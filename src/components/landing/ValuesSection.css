@@ -1,0 +1,63 @@
+/* Section */
+.values-section {
+  padding: 96px 0;
+  background: #f8fafc;
+}
+
+.values-container {
+  max-width: 1200px;
+}
+
+/* Title */
+.values-title {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .values-title {
+    font-size: 2rem;
+  }
+}
+
+/* Card */
+.value-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  height: 100%;
+  border: 1px solid #e2e8f0;
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.value-card:hover {
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
+  transform: translateY(-4px);
+  border-color: #93c5fd;
+}
+
+/* Icon */
+.value-icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+/* Title */
+.value-title {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Description */
+.value-desc {
+  color: #64748b;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}

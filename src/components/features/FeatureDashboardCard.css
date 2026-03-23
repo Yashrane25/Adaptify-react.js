@@ -1,0 +1,94 @@
+/* Card */
+.dashboard-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
+}
+
+/* Content */
+.dashboard-card-content {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Icon box */
+.dashboard-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  transition: transform 0.3s ease;
+}
+
+/* 🔥 Hover scale effect */
+.dashboard-card:hover .dashboard-icon-box {
+  transform: scale(1.1);
+}
+
+/* Icon */
+.dashboard-icon {
+  font-size: 30px;
+}
+
+/* Title */
+.dashboard-title {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* Description */
+.dashboard-desc {
+  color: #64748b;
+  line-height: 1.7;
+  flex-grow: 1;
+  font-size: 0.95rem;
+}
+
+/* Button wrapper */
+.dashboard-button-wrapper {
+  margin-top: 24px;
+}
+
+/* Button */
+.dashboard-button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #2563eb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Remove default hover bg */
+.dashboard-button:hover {
+  background: none;
+}
+
+/* Arrow animation */
+.arrow-icon {
+  transition: transform 0.2s;
+}
+
+/* 🔥 Arrow moves right on hover */
+.dashboard-button:hover .arrow-icon {
+  transform: translateX(4px);
+}

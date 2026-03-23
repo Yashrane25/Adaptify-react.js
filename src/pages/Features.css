@@ -1,0 +1,45 @@
+/* Page wrapper */
+.features-page {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+/* Main section */
+.features-main {
+  padding-top: 112px;
+  padding-bottom: 80px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Container */
+.features-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.features-header {
+  margin-bottom: 3rem;
+}
+
+/* Title */
+.features-title {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+/* Responsive title */
+@media (min-width: 768px) {
+  .features-title {
+    font-size: 2.75rem;
+  }
+}
+
+/* Subtitle */
+.features-subtitle {
+  color: #64748b; /* similar to MUI text.secondary */
+  font-size: 1.1rem;
+  max-width: 560px;
+  margin: 0 auto;
+}

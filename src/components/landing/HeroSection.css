@@ -1,0 +1,163 @@
+/* Section */
+.hero-section {
+  background: linear-gradient(to right, white, #f7fcfc, #effbf7);
+  padding-top: 120px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.hero-container {
+  max-width: 1200px;
+}
+
+/* Title */
+.hero-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 3.75rem;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Subtitle */
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  margin-bottom: 32px;
+  line-height: 1.7;
+  max-width: 480px;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* Right Card */
+.hero-card {
+  /* background: linear-gradient(to right, #effbf7, #f7fcfc, white); */
+  background: linear-gradient(to right, #f0fff9, #dffcf4);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: var(--shadow-elevated);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative circles */
+.hero-circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.05;
+}
+
+.hero-circle-top {
+  top: -30px;
+  right: -30px;
+  width: 180px;
+  height: 180px;
+  background: #0f8a71;
+}
+
+.hero-circle-bottom {
+  bottom: -20px;
+  left: -20px;
+  width: 120px;
+  height: 120px;
+  background: #0f8a71;
+}
+
+/* Feature cards */
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1f5f9;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateX(6px);
+}
+
+/* Icon */
+.feature-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+/* Text */
+.feature-text {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* Dot */
+.feature-dot {
+  margin-left: auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.badge-pill {
+  background-color: #0f8a711a;
+  color: #0f8a71;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.gradient-text {
+  color: #0f8a71;
+}
+
+.btn-primary {
+  background-color: #0f8a71;
+  border-color: #0f8a71;
+}
+.btn-primary:hover {
+  background-color: rgba(15, 138, 113, 0.85);
+  border-color: #0f8a71;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:focus-visible {
+  background-color: #0f8a71 !important;
+  border-color: #0f8a71 !important;
+  border-color: #0f8a71 !important;
+  box-shadow: none !important;
+}
+
+.left-div {
+  padding-left: 50px;
+}
+
+.right-div {
+  padding-right: 50px;
+}

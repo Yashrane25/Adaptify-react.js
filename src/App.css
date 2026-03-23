@@ -1,0 +1,56 @@
+/* CONTAINER */
+.container-custom {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+/* SECTION SPACING */
+.section {
+  padding: 60px 0;
+}
+
+/* SMOOTH TRANSITIONS */
+button,
+a,
+.card-custom {
+  transition: all 0.2s ease-in-out;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5f5;
+  border-radius: 10px;
+}
+
+/* BUTTON FALLBACK */
+.btn-custom:hover {
+  transform: translateY(-2px);
+}
+
+/* CARD FALLBACK */
+.card-custom {
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+}
+
+.card-custom:hover {
+  transform: translateY(-4px);
+  border-color: #93c5fd;
+  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.12);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

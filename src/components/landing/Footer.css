@@ -1,0 +1,45 @@
+/* Footer wrapper */
+.footer {
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Container */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Flex layout */
+.footer-content {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Responsive behavior */
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Brand styling */
+.footer-brand {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  background: linear-gradient(135deg, #2563eb, #0ea5e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Typography equivalent */
+.footer-text {
+  color: #64748b;
+  font-size: 0.875rem;
+}
