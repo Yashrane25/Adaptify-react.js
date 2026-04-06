@@ -24,7 +24,7 @@ const features = [
     icon: VisibilityIcon,
     title: "Eye-Controlled Cursor",
     description:
-      "Navigate your computer using just your eyes. Precise, responsive, and completely hands-free control.",
+      "Navigate your computer using just your eyes. Precise, responsive and completely hands free control.",
     color: "#dcfce7",
     iconColor: "#16a34a",
   },

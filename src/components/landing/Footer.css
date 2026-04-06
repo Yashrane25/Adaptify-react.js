@@ -33,7 +33,7 @@
   font-family: "Syne", sans-serif;
   font-weight: 800;
   font-size: 1.25rem;
-  background: linear-gradient(135deg, #2563eb, #0ea5e9);
+  background: linear-gradient(to right, #3fa779, #398672);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

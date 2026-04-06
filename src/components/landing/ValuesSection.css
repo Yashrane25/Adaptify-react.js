@@ -32,9 +32,9 @@
 
 /* Hover effect */
 .value-card:hover {
-  box-shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 8px 32px rgba(15, 138, 113, 0.1);
   transform: translateY(-4px);
-  border-color: #93c5fd;
+  border-color: rgb(15, 138, 113);
 }
 
 /* Icon */

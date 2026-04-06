@@ -19,7 +19,7 @@
   background: white;
   border-radius: 16px;
   padding: 32px;
-  box-shadow: 0 4px 40px rgba(37, 99, 235, 0.12);
+  box-shadow: 0 4px 40px rgba(15, 138, 113, 0.12);
   border: 1px solid #e2e8f0;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .back-container:hover {
-  color: #2563eb;
+  color: #0f8a71;
 }
 
 .back-icon {
@@ -58,10 +58,10 @@
   font-family: "Syne", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
-  background: linear-gradient(135deg, #2563eb, #0ea5e9);
+  background: #0f8a71;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 /* Title */
@@ -73,7 +73,7 @@
 /* Subtitle */
 .login-subtitle {
   color: #64748b;
-  margin-bottom: 32px;
+  margin-bottom: 15px !important;
 }
 
 /* Alert */
@@ -91,6 +91,11 @@
 /* Button */
 .login-button {
   margin-top: 8px;
+  background: #0f8a71 !important;
+}
+
+.login-button:hover {
+  background: #1c9c82 !important;
 }
 
 /* Footer */
@@ -102,7 +107,7 @@
 
 /* Signup link */
 .signup-link {
-  color: #2563eb;
+  color: #0f8a71;
   font-weight: 600;
   text-decoration: none;
 }

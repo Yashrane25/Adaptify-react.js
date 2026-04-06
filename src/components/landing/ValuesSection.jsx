@@ -24,7 +24,7 @@ const values = [
     icon: BoltIcon,
     title: "Real-time Performance",
     description:
-      "Lightning-fast processing so you can interact without any delay.",
+      "Lightning fast processing so you can interact without any delay.",
     color: "#fef3c7",
     iconColor: "#d97706",
   },
@@ -36,10 +36,6 @@ export default function ValuesSection() {
       <div className="container values-container">
         {/* Header */}
         <div className="text-center mb-5">
-          <span className="badge-pill mb-3 d-inline-block">
-            &#10022; Our Philosophy
-          </span>
-
           <h2 className="values-title">Why Adaptify?</h2>
         </div>
 

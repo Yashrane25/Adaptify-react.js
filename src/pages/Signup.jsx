@@ -46,7 +46,7 @@ export default function Signup() {
           <div className="signup-logo">Adaptify</div>
 
           {/* Heading */}
-          <Typography variant="h3" className="signup-title">
+          <Typography variant="h4" className="signup-title">
             Create your account
           </Typography>
 
@@ -70,6 +70,18 @@ export default function Signup() {
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               placeholder="Your name"
+              sx={{
+                "& .MuiOutlinedInput-root.Mui-focused fieldset": {
+                  borderColor: "#0f8a71",
+                },
+                "& .MuiInputLabel-root.Mui-focused": {
+                  color: "#0f8a71",
+                },
+                "& input::placeholder": {
+                  color: "gray",
+                  opacity: 1,
+                },
+              }}
             />
 
             <TextField
@@ -80,6 +92,18 @@ export default function Signup() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@example.com"
+              sx={{
+                "& .MuiOutlinedInput-root.Mui-focused fieldset": {
+                  borderColor: "#0f8a71",
+                },
+                "& .MuiInputLabel-root.Mui-focused": {
+                  color: "#0f8a71",
+                },
+                "& input::placeholder": {
+                  color: "gray",
+                  opacity: 1,
+                },
+              }}
             />
 
             <TextField
@@ -91,6 +115,18 @@ export default function Signup() {
               onChange={(e) => setPassword(e.target.value)}
               placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
               inputProps={{ minLength: 6 }}
+              sx={{
+                "& .MuiOutlinedInput-root.Mui-focused fieldset": {
+                  borderColor: "#0f8a71",
+                },
+                "& .MuiInputLabel-root.Mui-focused": {
+                  color: "#0f8a71",
+                },
+                "& input::placeholder": {
+                  color: "gray",
+                  opacity: 1,
+                },
+              }}
             />
 
             <Button

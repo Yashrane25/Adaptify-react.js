@@ -70,6 +70,18 @@ export default function Login() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="you@example.com"
+              sx={{
+                "& .MuiOutlinedInput-root.Mui-focused fieldset": {
+                  borderColor: "#0f8a71",
+                },
+                "& .MuiInputLabel-root.Mui-focused": {
+                  color: "#0f8a71",
+                },
+                "& input::placeholder": {
+                  color: "gray",
+                  opacity: 1,
+                },
+              }}
             />
 
             <TextField
@@ -80,6 +92,18 @@ export default function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
+              sx={{
+                "& .MuiOutlinedInput-root.Mui-focused fieldset": {
+                  borderColor: "#0f8a71",
+                },
+                "& .MuiInputLabel-root.Mui-focused": {
+                  color: "#0f8a71",
+                },
+                "& input::placeholder": {
+                  color: "gray",
+                  opacity: 1,
+                },
+              }}
             />
 
             <Button

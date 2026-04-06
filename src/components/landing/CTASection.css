@@ -9,7 +9,8 @@
 
 /* Card */
 .cta-card {
-  background: linear-gradient(135deg, #1d4ed8 0%, #0284c7 100%);
+  /* background: linear-gradient(135deg, #1d4ed8 0%, #0284c7 100%); */
+  background: linear-gradient(to right, #effdf7, #e9fcf7);
   border-radius: 20px;
   padding: 64px;
   text-align: center;
@@ -49,7 +50,7 @@
 /* Title */
 .cta-title {
   font-size: 2.4rem;
-  color: #ffffff;
+  color: #0f8a71;
   margin-bottom: 16px;
   position: relative;
 }
@@ -62,7 +63,7 @@
 
 /* Subtitle */
 .cta-subtitle {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1.1rem;
   margin-bottom: 32px;
   position: relative;
@@ -70,8 +71,8 @@
 
 /* Button */
 .cta-button {
-  background: #ffffff;
-  color: #1d4ed8;
+  background: #0f8a71;
+  color: whitesmoke;
   font-weight: 700;
   padding: 12px 32px;
   border: none;
@@ -83,6 +84,6 @@
 
 /* Hover */
 .cta-button:hover {
-  background: #f1f5f9;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  background: rgb(19, 170, 140);
+  box-shadow: 0 8px 24px rgba(19, 170, 140, 0.2);
 }
